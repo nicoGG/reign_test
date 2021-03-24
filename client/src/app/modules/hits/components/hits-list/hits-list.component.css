@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.container{
+    padding: 30px;
+}
+.author{
+    color: #999;
+}
+tr { 
+    color: #333;
+    background-color: #fff;
+    border: solid;
+    border-width: 1px 0;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+tr:hover {
+    background-color:#fafafa;
+    cursor: pointer;
+}
+span {
+    opacity: 0;
+}
+tr:hover span { 
+    opacity: 1;
+}
